@@ -26,7 +26,7 @@ namespace WindowsFormsApp1.Forms
             DataGridViewRow linha = dataGridView1.Rows[e.RowIndex];
             txtNumero.Text = linha.Cells[0].Value.ToString();
         }
-        private void atualizarDataGrid()
+        public void atualizarDataGrid()
         {
             dataGridView1.Rows.Clear();
             foreach (Conta conta in Form1.ListaDeContas.contas)
@@ -48,6 +48,31 @@ namespace WindowsFormsApp1.Forms
             {
                 MessageBox.Show(c.msgErro);
             }
+        }
+
+        private void BtnSacar_Click(object sender, EventArgs e)
+        {
+
+            int numero = Convert.ToInt32(txtNumero.Text);
+            double valor = Convert.ToDouble(txtValor.Text);
+            Conta c = Form1.ListaDeContas.buscarPorNumero(numero);
+            if (c.sacar(valor))
+            {
+                MessageBox.Show("Operação realizada com sucesso!!!");
+                atualizarDataGrid();
+            }
+            else
+            {
+                MessageBox.Show(c.msgErro);
+            }
+        }
+
+        private void BtnTransferi_Click(object sender, EventArgs e)
+        {
+            int numero = Convert.ToInt32(txtNumero.Text);
+            double valor = Convert.ToDouble(txtValor.Text);
+            Transferir t = new Transferir(numero, valor, this);
+            t.Show();
         }
     }
 }

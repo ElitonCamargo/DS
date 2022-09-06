@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtNumero = new System.Windows.Forms.TextBox();
-            this.txtValor = new System.Windows.Forms.TextBox();
-            this.btnSacar = new System.Windows.Forms.Button();
-            this.btnDepositar = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnTransferi = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnDepositar = new System.Windows.Forms.Button();
+            this.btnSacar = new System.Windows.Forms.Button();
+            this.txtValor = new System.Windows.Forms.TextBox();
+            this.txtNumero = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -55,23 +55,6 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Contas Cadastradas";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.btnTransferi);
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.btnDepositar);
-            this.groupBox2.Controls.Add(this.btnSacar);
-            this.groupBox2.Controls.Add(this.txtValor);
-            this.groupBox2.Controls.Add(this.txtNumero);
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(550, 12);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(218, 426);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Conta selecionada";
             // 
             // dataGridView1
             // 
@@ -104,37 +87,41 @@
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
             // 
-            // label1
+            // groupBox2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 59);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Número";
+            this.groupBox2.Controls.Add(this.btnTransferi);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.btnDepositar);
+            this.groupBox2.Controls.Add(this.btnSacar);
+            this.groupBox2.Controls.Add(this.txtValor);
+            this.groupBox2.Controls.Add(this.txtNumero);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(550, 12);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(218, 426);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Conta selecionada";
             // 
-            // txtNumero
+            // btnTransferi
             // 
-            this.txtNumero.Location = new System.Drawing.Point(6, 87);
-            this.txtNumero.Name = "txtNumero";
-            this.txtNumero.Size = new System.Drawing.Size(206, 30);
-            this.txtNumero.TabIndex = 1;
+            this.btnTransferi.Location = new System.Drawing.Point(6, 313);
+            this.btnTransferi.Name = "btnTransferi";
+            this.btnTransferi.Size = new System.Drawing.Size(206, 38);
+            this.btnTransferi.TabIndex = 6;
+            this.btnTransferi.Text = "Transferir";
+            this.btnTransferi.UseVisualStyleBackColor = true;
+            this.btnTransferi.Click += new System.EventHandler(this.BtnTransferi_Click);
             // 
-            // txtValor
+            // label2
             // 
-            this.txtValor.Location = new System.Drawing.Point(6, 161);
-            this.txtValor.Name = "txtValor";
-            this.txtValor.Size = new System.Drawing.Size(206, 30);
-            this.txtValor.TabIndex = 2;
-            // 
-            // btnSacar
-            // 
-            this.btnSacar.Location = new System.Drawing.Point(6, 225);
-            this.btnSacar.Name = "btnSacar";
-            this.btnSacar.Size = new System.Drawing.Size(206, 38);
-            this.btnSacar.TabIndex = 3;
-            this.btnSacar.Text = "Sacar";
-            this.btnSacar.UseVisualStyleBackColor = true;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 133);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(58, 25);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Valor";
             // 
             // btnDepositar
             // 
@@ -146,23 +133,38 @@
             this.btnDepositar.UseVisualStyleBackColor = true;
             this.btnDepositar.Click += new System.EventHandler(this.BtnDepositar_Click);
             // 
-            // label2
+            // btnSacar
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 133);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 25);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Valor";
+            this.btnSacar.Location = new System.Drawing.Point(6, 225);
+            this.btnSacar.Name = "btnSacar";
+            this.btnSacar.Size = new System.Drawing.Size(206, 38);
+            this.btnSacar.TabIndex = 3;
+            this.btnSacar.Text = "Sacar";
+            this.btnSacar.UseVisualStyleBackColor = true;
+            this.btnSacar.Click += new System.EventHandler(this.BtnSacar_Click);
             // 
-            // btnTransferi
+            // txtValor
             // 
-            this.btnTransferi.Location = new System.Drawing.Point(6, 313);
-            this.btnTransferi.Name = "btnTransferi";
-            this.btnTransferi.Size = new System.Drawing.Size(206, 38);
-            this.btnTransferi.TabIndex = 6;
-            this.btnTransferi.Text = "Transferir";
-            this.btnTransferi.UseVisualStyleBackColor = true;
+            this.txtValor.Location = new System.Drawing.Point(6, 161);
+            this.txtValor.Name = "txtValor";
+            this.txtValor.Size = new System.Drawing.Size(206, 30);
+            this.txtValor.TabIndex = 2;
+            // 
+            // txtNumero
+            // 
+            this.txtNumero.Location = new System.Drawing.Point(6, 87);
+            this.txtNumero.Name = "txtNumero";
+            this.txtNumero.Size = new System.Drawing.Size(206, 30);
+            this.txtNumero.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 59);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(81, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Número";
             // 
             // Listar
             // 
@@ -175,9 +177,9 @@
             this.Text = "Listar";
             this.Load += new System.EventHandler(this.Listar_Load);
             this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }

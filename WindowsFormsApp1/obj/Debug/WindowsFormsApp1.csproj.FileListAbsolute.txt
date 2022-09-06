@@ -21,3 +21,4 @@ C:\Users\Eliton Camargo\Desktop\DS\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.c
 C:\Users\Eliton Camargo\Desktop\DS\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\Eliton Camargo\Desktop\DS\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Eliton Camargo\Desktop\DS\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Eliton Camargo\Desktop\DS\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Forms.Transferir.resources
