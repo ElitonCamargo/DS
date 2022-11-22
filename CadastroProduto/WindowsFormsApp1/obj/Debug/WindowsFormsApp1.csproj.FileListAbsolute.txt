@@ -8,3 +8,14 @@ C:\Users\Eliton Camargo\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Wind
 C:\Users\Eliton Camargo\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\Eliton Camargo\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Eliton Camargo\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Eliton\DEV\DS\CadastroProduto\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Eliton\DEV\DS\CadastroProduto\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Eliton\DEV\DS\CadastroProduto\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Eliton\DEV\DS\CadastroProduto\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Eliton\DEV\DS\CadastroProduto\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Eliton\DEV\DS\CadastroProduto\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Eliton\DEV\DS\CadastroProduto\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Eliton\DEV\DS\CadastroProduto\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Eliton\DEV\DS\CadastroProduto\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Eliton\DEV\DS\CadastroProduto\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Eliton\DEV\DS\CadastroProduto\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
